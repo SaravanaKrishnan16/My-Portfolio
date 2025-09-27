@@ -1,153 +1,172 @@
-# Saravana Krishnan J - Personal Portfolio Website
+<div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://saravanakrishnan16.github.io/My-Portfolio)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# 👋 Hi, I'm Saravana Krishnan J
 
-A fully responsive, interactive, and elegant personal portfolio website built with vanilla HTML, CSS, and JavaScript.
+### 🚀 B.Tech IT Student | AWS Certified | Cloud & DevOps Enthusiast
 
-## 🌐 Live Demo
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=google-chrome)](https://saravanakrishnan16.github.io/My-Portfolio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/saravana-krishnan-j-3a7080299/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-500%2B%20Problems-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/SaravanaKrishnan16/)
+[![Medium](https://img.shields.io/badge/Medium-Follow-12100E?style=for-the-badge&logo=medium)](https://medium.com/@saravanakrishnan16)
 
-[View Live Portfolio](https://saravanakrishnan16.github.io/My-Portfolio)
-
-## 🚀 Features
-
-- **Fully Responsive**: Works perfectly on mobile, tablet, and desktop
-- **Interactive Animations**: Typing animation, scroll effects, and smooth transitions
-- **Modern Design**: Clean, professional layout with gradient backgrounds
-- **No Dependencies**: Built with pure HTML, CSS, and JavaScript (no external libraries)
-- **SEO Friendly**: Semantic HTML structure
-- **Fast Loading**: Optimized for performance
-
-## 📁 Project Structure
-
-```
-portfolio/
-├── index.html          # Main HTML file
-├── style.css           # All styles and responsive design
-├── script.js           # JavaScript functionality
-├── assets/
-│   └── Saravana_Krishnan_Resume.pdf
-├── images/
-│   ├── profile.jpg     # Profile picture (placeholder)
-│   ├── project1.png    # QR Detection project (placeholder)
-│   ├── project2.png    # ATM Interface project (placeholder)
-│   └── project3.png    # Tic Tac Toe project (placeholder)
-└── README.md
-```
-
-## 🎯 Sections Included
-
-1. **Hero Section** - Full-screen landing with typing animation
-2. **About Me** - Personal bio and key skills
-3. **Certifications** - AWS and other certifications
-4. **Timeline** - Learning journey milestones
-5. **Projects** - Showcase of 3 main projects
-6. **Skills** - Animated progress bars
-7. **Contact** - Contact form with validation
-8. **Footer** - Copyright and social links
-
-## 🛠️ Setup Instructions
-
-### Local Development
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SaravanaKrishnan16/My-Portfolio.git
-   cd My-Portfolio
-   ```
-
-2. Open `index.html` in your browser or use a local server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   ```
-
-### GitHub Pages Deployment
-1. Fork this repository
-2. Go to Settings > Pages
-3. Select "Deploy from a branch" and choose "main"
-4. Your site will be available at `https://saravanakrishnan16.github.io/My-Portfolio`
-
-### Customization
-1. **Replace Images**: Update images in the `images/` folder
-2. **Update Resume**: Replace `assets/Saravana_Krishnan_Resume.pdf`
-3. **Modify Content**: Edit `index.html` for personal information
-4. **Update Links**: Change project and social media links
-
-## 🎨 Customization
-
-### Colors
-The main color scheme uses:
-- Primary: `#2563eb` (Blue)
-- Secondary: `#1e293b` (Dark Gray)
-- Background: `#f8fafc` (Light Gray)
-
-### Fonts
-Uses system fonts for optimal performance:
-- Primary: Arial, sans-serif
-
-### Animations
-- Typing animation in hero section
-- Scroll-triggered animations
-- Hover effects on cards
-- Smooth scrolling navigation
-
-## 📱 Responsive Breakpoints
-
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: Below 768px
-
-## 🚀 Performance Features
-
-- CSS animations using `transform` and `opacity` for smooth performance
-- Debounced scroll events
-- Lazy loading effects
-- Optimized images (when you add real ones)
-
-## 🔧 Browser Support
-
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-- All modern browsers with ES6 support
-
-## 📞 Contact Form
-
-The contact form includes:
-- Client-side validation
-- Success/error messages
-- Responsive design
-- No backend required (displays success message only)
-
-## 🎯 SEO Optimized
-
-- Semantic HTML5 structure
-- Meta tags for viewport and charset
-- Proper heading hierarchy
-- Alt tags for images (add when replacing placeholders)
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## ⭐ Show your support
-
-Give a ⭐️ if this project helped you!
+</div>
 
 ---
 
-**Built with ❤️ using HTML, CSS, JS**
+## 🎯 About Me
+
+```typescript
+const saravanaKrishnan = {
+    education: "B.Tech IT @ St. Joseph's Institute of Technology",
+    cgpa: 8.8,
+    location: "Chennai, Tamil Nadu, India",
+    currentFocus: ["Cloud Computing", "DevOps", "Problem Solving"],
+    certifications: ["AWS Developer Associate", "AWS Cloud Practitioner", "GitHub Foundations"],
+    problemsSolved: "500+",
+    languages: ["Java", "Python", "JavaScript", "SQL"],
+    cloudTech: ["AWS", "Docker", "Terraform", "Serverless"],
+    motto: "Building scalable solutions in the cloud ☁️"
+};
+```
+
+---
+
+## 🏆 Achievements & Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SaravanaKrishnan16&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SaravanaKrishnan16&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+### 📊 Coding Journey
+- 🔥 **500+** DSA Problems Solved on LeetCode & GeeksforGeeks
+- 🎯 **160 Days** GFG Challenge Completed
+- ⭐ **8.8 CGPA** in B.Tech IT
+- 🏅 **6+** Professional Certifications
+- 📚 **15+** GitHub Repositories
+
+---
+
+## 🛠️ Tech Stack
+
+### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+![Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=aws-lambda&logoColor=white)
+
+### 💻 Programming
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### 🌐 Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+---
+
+## 🚀 Featured Projects
+
+### 🏥 [Smart Medicine Reminder System](https://github.com/SaravanaKrishnan16/MediCare-Plus-AWS)
+> **Serverless healthcare web application with automated medicine reminders**
+- 🔧 **Tech Stack:** AWS Lambda, API Gateway, DynamoDB, SNS, EventBridge, S3, Terraform
+- ⚡ **Features:** Event-driven architecture, automated scheduling, email notifications
+- 🏗️ **Infrastructure:** Complete IaC deployment with Terraform
+
+### 🛡️ [Phishing Detection AI](https://github.com/SaravanaKrishnan16/Phishing-Detection-AI-AWS)
+> **AI-powered cybersecurity application for real-time phishing detection**
+- 🔧 **Tech Stack:** Python, AWS Lambda, API Gateway, S3, CloudWatch, Terraform
+- 🤖 **Features:** Machine learning model, real-time URL analysis, responsive UI
+- 📊 **Architecture:** Serverless ML inference with AWS services
+
+### 🎤 [RecruitAI Pro - Mock Interview Assistant](https://github.com/SaravanaKrishnan16/RecruitAI-Pro)
+> **AI-powered mock interview platform with speech recognition**
+- 🔧 **Tech Stack:** React, Amazon Q, MCP, Jooble API, Web Speech API
+- 🎯 **Features:** Real-time evaluation, job recommendations, multi-dimensional scoring
+- 🔄 **Innovation:** Resilient fallback system with 70-98% match accuracy
+
+---
+
+## 🏅 Certifications
+
+<div align="center">
+
+| Certification | Issuer | Date | Badge |
+|---------------|--------|------|-------|
+| AWS Developer Associate | Amazon Web Services | July 2025 | [🏆 View](https://www.credly.com/badges/00d8912e-b2df-46ec-8f58-6c59754b4b14/public_url) |
+| AWS Cloud Practitioner | Amazon Web Services | Jan 2025 | [🏆 View](https://www.credly.com/badges/0f094f98-c18f-43d3-8b6f-734b270722d6/public_url) |
+| GitHub Git Foundations | GitHub | June 2025 | [🏆 View](https://www.credly.com/badges/293744c9-1628-4381-a769-112c2cd07698/public_url) |
+| GFG 160 Days DSA | GeeksforGeeks | 2025 | [🏆 View](https://www.linkedin.com/posts/saravana-krishnan-j-3a7080299_gfg-160-days-problem-solving-activity-7325583893284249600-heS2) |
+
+</div>
+
+---
+
+## 📈 GitHub Activity
+
+<div align="center">
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SaravanaKrishnan16&theme=tokyo-night&hide_border=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=SaravanaKrishnan16&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 📝 Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+- [🚀 My AWS Certification Journey: How I Passed Cloud Practitioner & Developer Associate](https://medium.com/@saravanakrishnan16/️my-aws-certification-journey-how-i-passed-cloud-practitioner-developer-associate-a-7c97f04f4e9b)
+- [💡 DSA Problem Solving Strategies: Lessons from Solving 700+ LeetCode Problems](https://medium.com/@saravanakrishnan16/dsa-problem-solving-strategies-lessons-from-solving-700-leetcode-and-geeksforgeeks-problems-e28f847041a7)
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+## 🎯 Current Goals
+
+- 🔥 Expanding AWS expertise with Solutions Architect certification
+- 🚀 Contributing to open-source cloud projects
+- 📚 Mastering Kubernetes and advanced DevOps practices
+- 💼 Seeking internship opportunities in Cloud/DevOps roles
+
+---
+
+## 📊 Coding Platforms
+
+<div align="center">
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-500%2B%20Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/SaravanaKrishnan16/)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-160%20Days%20Challenge-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/saravanakrishnan_07/)
+
+</div>
+
+---
+
+## 🤝 Let's Connect!
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-saravanakrishnan16%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saravanakrishnan16@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saravana%20Krishnan%20J-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saravana-krishnan-j-3a7080299/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://saravanakrishnan16.github.io/My-Portfolio)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💭 *"Building the future, one commit at a time"*
+
+![Profile Views](https://komarev.com/ghpvc/?username=SaravanaKrishnan16&color=blueviolet&style=for-the-badge)
+
+⭐ **If you find my work interesting, please consider giving a star to my repositories!**
+
+</div>
