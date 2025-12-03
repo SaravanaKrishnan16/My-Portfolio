@@ -484,6 +484,31 @@ function toggleLike(button) {
     }
 }
 
+// AWS Achievement Video Functionality
+document.addEventListener('DOMContentLoaded', () => {
+    const achievementMedia = document.querySelector('.achievement-media');
+    const achievementVideo = document.querySelector('.achievement-video');
+    
+    if (achievementMedia && achievementVideo) {
+        achievementMedia.addEventListener('click', () => {
+            if (achievementMedia.classList.contains('playing')) {
+                achievementVideo.pause();
+                achievementVideo.currentTime = 0;
+                achievementMedia.classList.remove('playing');
+            } else {
+                achievementMedia.classList.add('playing');
+                achievementVideo.play().catch(e => console.log('Video error:', e));
+            }
+        });
+
+        achievementVideo.addEventListener('ended', () => {
+            achievementMedia.classList.remove('playing');
+        });
+    }
+});
+
+
+
 console.log('Portfolio website loaded successfully! 🚀');
 // Counter Animation for Stats Section
 function animateStatsCounters() {
