@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saravana Krishnan - Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>SK</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#timeline" class="nav-link">Journey</a></li>
+
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right">
+                <h1>Hi, I'm <span class="highlight">Saravana Krishnan J</span></h1>
+                <h2>I'm a <span id="typed-text"></span><span class="cursor">|</span></h2>
+                <p>B.Tech IT Student | AWS Certified | Cloud & DevOps Enthusiast</p>
+                <div class="hero-buttons">
+                    <a href="assets/Saravana_Krishnan_Resume.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Hire Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="images/profile.jpg" alt="Saravana Krishnan J" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-intro">
+                    <h3>Who Am I?</h3>
+                    <p>B.Tech IT Student at St. Joseph's Institute of Technology</p>
+                </div>
+                <div class="about-main">
+                    <div class="about-text">
+                        <div class="about-card">
+                            <h4><i class="fas fa-graduation-cap"></i> Education & Academics</h4>
+                            <p>Currently maintaining a CGPA of 8.8 while pursuing my passion for Cloud Computing and DevOps technologies.</p>
+                        </div>
+                        <div class="about-card">
+                            <h4><i class="fab fa-aws"></i> Cloud Expertise</h4>
+                            <p>Hands-on experience with AWS services, containerization with Docker, and building scalable serverless applications.</p>
+                        </div>
+                        <div class="about-card">
+                            <h4><i class="fas fa-code"></i> Problem Solving</h4>
+                            <p>Solved 500+ DSA problems and committed to continuous learning and contributing to open-source projects.</p>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>500+</h3>
+                            <p>DSA Problems Solved</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>8.8</h3>
+                            <p>CGPA</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>6+</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-item">
+                        <span>AWS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Docker</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="40%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Terraform</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="50%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Programming</h3>
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="40%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>SQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="40%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Achievements</h2>
+            <div class="achievements-grid">
+                <a href="https://leetcode.com/u/SaravanaKrishnan16/" target="_blank" class="achievement-card-link">
+                    <div class="achievement-card" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fas fa-code leetcode-color"></i>
+                        <h3 class="animated-title">LeetCode Problem Solver</h3>
+                        <p class="animated-subtitle">500+ Problems Solved</p>
+                        <div class="achievement-details">
+                            <span class="achievement-item animated-text">Consistent problem-solving to strengthen logic, algorithms, and coding efficiency.</span>
+                            <span class="event animated-event">Competitive Programming Platform</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="achievement-card-link math-achievement-card">
+                    <div class="achievement-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="achievement-gallery">
+                            <img src="images/human-calculator.png" alt="Human Calculator Achievement" class="math-image active">
+                        </div>
+                        <div class="achievement-content">
+                            <i class="fas fa-trophy math-color"></i>
+                            <h3 class="animated-title">Human Calculator</h3>
+                            <p class="animated-subtitle">1st Place Winner</p>
+                            <div class="achievement-details">
+                                <span class="event animated-event">Saveetha Institute of Medical and Technical Sciences, Chennai 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievement-card-link aws-cert-card">
+                    <div class="achievement-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="aws-badges">
+                            <img src="images/aws-certified-cloud-practitioner.png" alt="AWS Cloud Practitioner" class="aws-badge">
+                            <img src="images/aws-certified-developer-associate.png" alt="AWS Developer Associate" class="aws-badge">
+                        </div>
+                        <div class="achievement-content">
+                            <i class="fab fa-aws"></i>
+                            <h3 class="animated-title">AWS Certified Professional</h3>
+                            <p class="aws-highlight animated-subtitle">Cloud & Developer Associate</p>
+                            <div class="achievement-details">
+                                <span class="achievement-item animated-text">Certified in both foundational and developer-level AWS skills, showcasing strong cloud knowledge and hands-on application development expertise.</span>
+                                <span class="event animated-event">Amazon Web Services Certification</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievement-card-link aws-challenge-card">
+                    <div class="achievement-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="achievement-media">
+                            <img src="images/aws-challenge-photo.jpg" alt="AWS Challenge Certificate" class="achievement-photo">
+
+
+                        </div>
+                        <div class="achievement-content">
+                            <i class="fab fa-aws aws-color"></i>
+                            <h3 class="animated-title">AWS Q CLI Challenge</h3>
+                            <p class="animated-subtitle">3rd Place Winner</p>
+                            <div class="achievement-details">
+                                <span class="prize animated-text">Prize: ₹13,500</span>
+                                <span class="event animated-event">AWS Student Community Day 2025, Chennai</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Certifications</h2>
+            <div class="certifications-grid">
+                <a href="https://www.credly.com/badges/00d8912e-b2df-46ec-8f58-6c59754b4b14/public_url" target="_blank" class="cert-link">
+                    <div class="cert-card" data-aos="flip-left" data-aos-delay="100">
+                        <img src="images/aws-certified-developer-associate.png" alt="AWS Developer Associate" loading="lazy">
+                        <h3>AWS Developer Associate</h3>
+                        <p>12th July 2025</p>
+                    </div>
+                </a>
+                <a href="https://www.credly.com/badges/0f094f98-c18f-43d3-8b6f-734b270722d6/public_url" target="_blank" class="cert-link">
+                    <div class="cert-card" data-aos="flip-left" data-aos-delay="200">
+                        <img src="images/aws-certified-cloud-practitioner.png" alt="AWS Cloud Practitioner" loading="lazy">
+                        <h3>AWS Cloud Practitioner</h3>
+                        <p>11th January 2025</p>
+                    </div>
+                </a>
+                <a href="https://www.credly.com/badges/293744c9-1628-4381-a769-112c2cd07698/public_url" target="_blank" class="cert-link">
+                    <div class="cert-card" data-aos="flip-left" data-aos-delay="300">
+                        <img src="images/github-foundations.png" alt="GitHub Foundations" loading="lazy">
+                        <h3>GitHub Git Foundations</h3>
+                        <p>14th June 2025</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/posts/saravana-krishnan-j-3a7080299_gfg-160-days-problem-solving-activity-7325583893284249600-heS2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgXWi8BqtaH1-UE65FqJ0DIkf6jHSZnoHs" target="_blank" class="cert-link">
+                    <div class="cert-card" data-aos="flip-left" data-aos-delay="400">
+                        <div class="cert-icon gfg-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>GFG 160 Days DSA</h3>
+                        <p>Challenge Completed</p>
+                    </div>
+                </a>
+                <a href="#" class="cert-link">
+                    <div class="cert-card" data-aos="flip-left" data-aos-delay="500">
+                        <div class="cert-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h3>Linguaskill English B2</h3>
+                        <p>Cambridge Certified</p>
+                    </div>
+                </a>
+                <a href="#" class="cert-link">
+                    <div class="cert-card" data-aos="flip-left" data-aos-delay="600">
+                        <div class="cert-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>NPTEL Courses</h3>
+                        <p>Elite : Cloud, Java, DBMS</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/project1.png" alt="Smart Medicine Reminder" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/SaravanaKrishnan16/MediCare-Plus-AWS.git" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Smart Medicine Reminder System</h3>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <p>Serverless healthcare web application with automated medicine reminders and caretaker alerts</p>
+                        <div class="project-details" style="display: none;">
+                            <ul>
+                                <li>Modern responsive frontend hosted on S3; Backend with 3 Lambda functions for scheduling and notifications</li>
+                                <li>Event-driven architecture using EventBridge for cron scheduling and SNS for email delivery</li>
+                                <li>Infrastructure as Code deployment with Terraform; DynamoDB for patient data storage</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                            <span>AWS Lambda</span>
+                            <span>API Gateway</span>
+                            <span>DynamoDB</span>
+                            <span>SNS</span>
+                            <span>EventBridge</span>
+                            <span>S3</span>
+                            <span>Terraform</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="images/project2.png" alt="Phishing Detection AI" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/SaravanaKrishnan16/Phishing-Detection-AI-AWS.git" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Phishing Detection AI AWS</h3>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <p>AI-powered cybersecurity application using machine learning to detect phishing websites with real-time analysis</p>
+                        <div class="project-details" style="display: none;">
+                            <ul>
+                                <li>Modern responsive frontend hosted on S3; Backend with Lambda function for URL prediction and feature extraction</li>
+                                <li>Serverless architecture with API Gateway for REST endpoints and CloudWatch for logging and monitoring</li>
+                                <li>Infrastructure as Code deployment with Terraform; S3 for model storage and static website hosting</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                            <span>AWS Lambda</span>
+                            <span>API Gateway</span>
+                            <span>S3</span>
+                            <span>CloudWatch</span>
+                            <span>IAM</span>
+                            <span>Terraform</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="images/project3.png" alt="Mock Interview Assistant" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/SaravanaKrishnan16/RecruitAI-Pro.git" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="project-title-section">
+                                <h3>Mock Interview Assistant (RecruitAI Pro)</h3>
+                                <span class="award-badge"><i class="fas fa-award"></i> Recognized Excellence</span>
+                            </div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <p>AI-powered mock interview platform with real-time speech recognition and automated evaluation</p>
+                        <div class="award-note">
+                            <p>Recognized at AWS Student Community Day 2025 for excellence in AI-based development — won 3rd place in Amazon Q CLI Challenge.</p>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <ul>
+                                <li>AI-powered mock interview platform with real-time speech recognition and automated evaluation</li>
+                                <li>Integrated Amazon Q for role-specific question generation and MCP for multi-dimensional scoring</li>
+                                <li>Built job recommendation engine using Jooble API with MCP enhancement for 70-98% match accuracy</li>
+                                <li>Implemented resilient fallback system: AWS SDK → Amazon Q CLI → local knowledge base</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Amazon Q</span>
+                            <span>MCP</span>
+                            <span>Jooble API</span>
+                            <span>Web Speech API</span>
+                            <span>AWS CLI</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Journey</h2>
+            <div class="timeline-container">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Started B.Tech IT</h3>
+                        <span class="timeline-date">2023</span>
+                        <p>Began B.Tech IT at St. Joseph's Institute of Technology</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>NPTEL Certifications</h3>
+                        <span class="timeline-date">2024</span>
+                        <p>Completed Cloud Computing course with an Elite Silver</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>AWS Cloud Practitioner</h3>
+                        <span class="timeline-date">Jan 2025</span>
+                        <p>Achieved first AWS certification</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>30-Day AWS POC Challenges</h3>
+                        <span class="timeline-date">Feb 2025</span>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Major Project</h3>
+                        <span class="timeline-date">Mar 2025</span>
+                        <p>QR Code Fake Detection System using AWS & Terraform</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>GitHub Git Foundations</h3>
+                        <span class="timeline-date">Jun 2025</span>
+                        <p>Mastered Git and GitHub workflows</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>AWS Developer Associate</h3>
+                        <span class="timeline-date">Jul 2025</span>
+                        <p>Advanced AWS certification achieved</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Present - Still Learning</h3>
+                        <span class="timeline-date">2025</span>
+                        <p>Active GitHub contributions & DSA problem solving</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Future Goals</h3>
+                        <span class="timeline-date">Ongoing</span>
+                        <p>Continuous learning in Cloud Technologies & DevOps</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Latest Articles</h2>
+            <div class="blog-grid">
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>My AWS Certification Journey to Associate</h3>
+                    <p>Sharing my experience and tips for passing AWS Cloud Practitioner and Developer Associate exams.</p>
+                    <a href="https://medium.com/@saravanakrishnan16/️my-aws-certification-journey-how-i-passed-cloud-practitioner-developer-associate-a-7c97f04f4e9b" 
+                    target="_blank" 
+                    class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Building Serverless Healthcare Apps</h3>
+                    <p>Deep dive into creating the Smart Medicine Reminder System using AWS serverless services.</p>
+                    <a href="#" class="blog-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>DSA Problem Solving Strategies</h3>
+                    <p>Lessons learned from solving 500+ problems on LeetCode and GeeksforGeeks platforms.</p>
+                    <a href="https://medium.com/@saravanakrishnan16/dsa-problem-solving-strategies-lessons-from-solving-700-leetcode-and-geeksforgeeks-problems-e28f847041a7" 
+                    target="_blank" 
+                    class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+               </div>
+        </div>
+    </section>
+
+    <!-- Fun Stats Section -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fab fa-github"></i>
+                    <h3 id="github-commits">300+</h3>
+                    <p>GitHub Commits</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-code"></i>
+                    <h3 id="coding-streak">500+</h3>
+                    <p>DSA Problems Solved</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3 id="challenge-days">160</h3>
+                    <p>Days Challenge Completed</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fas fa-trophy"></i>
+                    <h3 id="certifications">6+</h3>
+                    <p>Certifications Earned</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>saravanakrishnan16@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 6380697679</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Chennai, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form
+                 class="contact-form" data-aos="fade-left" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Saravana Krishnan J</h3>
+                    <p>B.Tech IT Student | AWS Certified | Cloud & DevOps Enthusiast</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/saravana-krishnan-j-3a7080299/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/SaravanaKrishnan16" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://leetcode.com/u/SaravanaKrishnan16/" target="_blank"><i class="fas fa-code"></i></a>
+                        <a href="https://www.geeksforgeeks.org/user/saravanakrishnan_07/" target="_blank"><i class="fas fa-laptop-code"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li><a href="#skills">AWS Cloud</a></li>
+                        <li><a href="#skills">Docker & Terraform</a></li>
+                        <li><a href="#skills">Problem Solving Java DSA</a></li>
+                        <li><a href="#skills">SQL</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Saravana Krishnan J. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
