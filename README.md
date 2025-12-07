@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://saravanakrishnan16.github.io/portfolio)
+[![Live Demo](https://img.shields.io/badge/🌐_Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://saravanakrishnan16.github.io/My-Portfolio/)
 [![License: MIT](https://img.shields.io/badge/📄_License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![AWS Certified](https://img.shields.io/badge/☁️_AWS-Certified-orange?style=for-the-badge&logo=amazon-aws)](https://www.credly.com/users/saravana-krishnan-j)
 [![LeetCode](https://img.shields.io/badge/💻_LeetCode-500+-yellow?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/SaravanaKrishnan16/)
@@ -133,7 +133,7 @@ portfolio/
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/SaravanaKrishnan16/portfolio.git
+git clone https://github.com/SaravanaKrishnan16/My-Portfolio.git
 cd portfolio
 
 # 2️⃣ Open with local server (choose one)
@@ -322,5 +322,6 @@ git push origin feature/AmazingFeature
 ### 🎉 **Thank you for visiting!** 
 
 *Star ⭐ this repo if you found it helpful!*
+
 
 </div>
