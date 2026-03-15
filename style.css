@@ -99,10 +99,19 @@ body {
     font-weight: 500;
     transition: all 0.3s ease;
     position: relative;
+    outline: none;
+    border: none;
+    box-shadow: none;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.nav-link:visited {
     color: var(--primary-color);
+    outline: none;
+    border: none;
+    box-shadow: none;
 }
 
 .nav-link::after {
@@ -129,12 +138,18 @@ body {
     cursor: pointer;
     color: var(--text-primary);
     transition: all 0.3s ease;
+    outline: none;
+    box-shadow: none;
 }
 
-.theme-toggle:hover {
+.theme-toggle:hover,
+.theme-toggle:focus,
+.theme-toggle:active {
     background: var(--gradient);
     color: white;
     border-color: transparent;
+    outline: none;
+    box-shadow: none;
 }
 
 .nav-toggle {
@@ -696,7 +711,7 @@ section {
     content: '';
     position: absolute;
     left: 50%;
-    top: 65px;
+    top: 125px;
     bottom: 90px;
     width: 2px;
     background: var(--gradient);
