@@ -1,0 +1,50 @@
+/* IEEE CIS Achievement Card Styles */
+.ieee-cis-card .achievement-card {
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ieee-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
+    border-radius: 0;
+}
+
+.ieee-cis-card .achievement-gallery {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.ieee-cis-card .achievement-content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.ieee-color {
+    color: #0066CC !important;
+}
+
+.ieee-cis-card:hover .achievement-card {
+    animation: ieeeGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes ieeeGlow {
+    0% {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 102, 204, 0.3);
+    }
+    100% {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 102, 204, 0.5);
+    }
+}
+
+.ieee-cis-card:hover .ieee-image {
+    transform: scale(1.05);
+}
